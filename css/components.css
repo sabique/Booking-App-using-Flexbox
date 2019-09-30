@@ -1,7 +1,7 @@
 /* LOGO */
 .logo{
     height: 3.5rem;
-    margin-left: 3rem;
+    margin-left: 2rem;
 }
 
 /* SEARCH */
@@ -63,33 +63,53 @@
 
 /* USER NAVIGATION */
 .user-nav {
-    background-color: forestgreen;
+    display: flex;
+    align-items: center;
+    align-self: stretch;
+}
+
+.user-nav > * {
+    padding: 0 2rem;
+    cursor: pointer;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.user-nav > *:hover {
+    background-color: var(--color-grey-light-2);
 }
 
 .user-nav .user-nav__icon-box {
-
+    position: relative;
 }
 
 .user-nav .user-nav__icon {
     height: 2.25rem;
     width: 2.25rem;
+    fill: var(--color-grey-dark-2);
 }
 
 .user-nav .user-nav__notification {
+    height: 2rem;
+    width: 2rem;
+    font-size: .8rem;
+    border-radius: 50%;
+    background-color: var(--color-primary);
+    color:white;
+    position: absolute;
+    top: 1.1rem;
+    right: 1.3rem;
 
-}
-
-.user-nav .user-nav__user {
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .user-nav .user-nav__user-photo {
     height: 3.75rem;
     border-radius: 50%;
-}
-
-.user-nav .user-nav__user-name {
-
+    margin-right: 1rem;
 }
 
 /* 
