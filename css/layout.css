@@ -25,10 +25,16 @@
     background-color: var(--color-grey-dark-1);
     /* Flex Item Properties */
     flex: 0 0 18%;
+
+    /*Flex*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .hotel-view {
-    background-color: #fff;
+    background-color: orangered;
+    height: 80rem;
     /* Flex Item Properties */
     flex: 1;
 }
