@@ -115,20 +115,32 @@
 /* SIDE NAVIGATION */
 
 .side-nav {
-
+    font-size: 1.4rem;
+    margin-top: 3.5rem;
+    list-style: none;
 }
 
 .side-nav .side-nav__item {
     
 }
 
-.side-nav .side-nav__link {
-    
+.side-nav .side-nav__link:link,
+.side-nav .side-nav__link:visited {
+    color: var(--color-grey-light-1);
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    padding: 1.5rem 3rem;
+
+    display: flex;
+    align-items: center;
 }
 
 .side-nav .side-nav__icon {
     width: 1.75rem;
     height: 1.75rem;
+    margin-right: 2rem;
+    fill: currentColor;
 }
 
 /* LEGAL */
