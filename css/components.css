@@ -181,3 +181,114 @@
     padding: 2.5rem;
     color: var(--color-grey-light-4);
 }
+
+/* GALLERY */
+
+.gallery {
+    display: flex;
+}
+
+.gallery .gallery__item {
+    
+}
+
+.gallery .gallery__photo {
+    width: 100%;
+    display: block;
+}
+
+/* HOTEL OVERVIEW */
+.overview {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid var(--color-grey-light-2);
+}
+
+.overview .overview__heading {
+    font-size: 2.25rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 1.5rem 3rem;
+}
+
+.overview .overview__stars {
+    margin-right: auto;
+    display: flex;
+}
+
+.overview .overview__icon-star,
+.overview .overview__icon-location {
+    width: 1.75rem;
+    height: 1.75rem;
+    fill: var(--color-primary);
+}
+
+.overview .overview__icon-location {
+    margin-right: .5rem;
+}
+
+.overview .overview__location {
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+}
+
+.overview .overview__rating {
+    background-color: var(--color-primary);
+    color: #fff;
+    margin-left: 3rem;
+    padding: 0 2.25rem; 
+    align-self: stretch;
+    
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.overview .overview__rating-average {
+    font-size: 2.25rem;
+    font-weight: 300;
+}
+
+.overview .overview__rating-count {
+    font-size: .8rem;
+    text-transform: uppercase;
+}
+
+/* BUTTON INLINE */
+.btn-inline {
+    border: none;
+    color: var(--color-primary);
+    font-size: inherit;
+    border-bottom: 1px dotted currentColor;
+    padding-bottom: 2px;
+    display: inline-block;
+    background-color: transparent;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.btn-inline:hover {
+    outline: none;
+    animation: pulsate 1s infinite;
+}
+
+@keyframes pulsate {
+    0% {
+        transform: scale(1);
+        box-shadow: none;
+    }
+
+    50% {
+        transform: scale(1.1);
+        box-shadow: 0 1rem 4rem rgba(0,0,0,0.25);
+    }
+
+    100% {
+        transform: scale(1);
+        box-shadow: none;
+    }
+}
