@@ -358,6 +358,10 @@
     justify-content: space-between;
 }
 
+.recommend .recommend__friends {
+    display: flex;
+}
+
 .recommend .recommend__photo {
     box-sizing: content-box;
     width: 4rem;
@@ -367,7 +371,7 @@
 }
 
 .recommend .recommend__photo:not(:last-child) {
-    margin-right: -1.5rem;
+    margin-right: -2rem;
 }
 
 /* REVIEW */

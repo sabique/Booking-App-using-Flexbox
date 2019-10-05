@@ -1,0 +1,129 @@
+@media only screen and (max-width:1200px) {
+    .container {
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    html {
+        font-size: 50%;
+    }
+
+    .container {
+        max-width: 100%;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .content {
+        flex-direction: column;
+    }
+
+    .side-nav {
+        display: flex;
+        margin: 0;
+    }
+
+    .side-nav .side-nav__item {
+        flex: 1;
+    }
+
+    .side-nav .side-nav__item:not(:last-child) {
+        margin-bottom: 0;
+    }
+
+    .side-nav .side-nav__link:link,
+    .side-nav .side-nav__link:visited {
+        justify-content: center;
+        padding: 2rem; 
+    }
+
+    .legal {
+        display: none;
+    }
+
+    .detail {
+        padding: 3rem;
+    }
+
+    .description {
+        padding: 2rem;
+        margin-right: 3rem;
+    }
+
+    .review {
+        padding: 2rem;
+        margin-bottom: 3rem;
+    }
+
+    .cta {
+        padding: 2.5rem 0;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .detail {
+        flex-direction: column;
+    }
+
+    .description {
+        margin-right: 0;
+        margin-bottom: 2rem;
+    }
+
+    .side-nav .side-nav__link:link, 
+    .side-nav .side-nav__link:visited {
+        flex-direction: column;
+        padding: 1.5rem .5rem;
+    }
+
+    .side-nav .side-nav__icon {
+        margin-right: 0;
+        margin-bottom: .7rem;
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+
+    .overview .overview__heading {
+        font-size: 1.8rem;
+        padding: 1.25rem 2rem;
+    }
+
+    .overview .overview__rating {
+        padding: 0 1.5rem;
+    }
+
+    .overview .overview__rating-average {
+        font-size: 1.8rem;
+    }
+
+    .overview .overview__rating-count {
+        font-size: .8rem;
+    }
+}
+
+@media only screen and (max-width: 500px) { 
+    .header {
+        height: 11rem; 
+        flex-wrap: wrap;
+        align-content: space-around;
+    }
+
+    .search {
+        order: 1;
+        flex: 0 0 100%;
+        background-color: var(--color-grey-light-2);
+    }
+}
+
+@supports((-webkit-mask-image: url()) OR (mask-image: url())) {
+    .list .list__item::before {
+        background-color: var(--color-primary);
+        mask-image: url('../img/chevron-thin-right.svg');
+        mask-size: cover;
+        -webkit-mask-image: url('../img/chevron-thin-right.svg');
+        -webkit-mask-size: cover;
+        background-image: none;
+    }
+}

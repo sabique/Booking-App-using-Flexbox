@@ -40,7 +40,7 @@
 .detail {
     display: flex;
     padding: 4.5rem;
-    background-color: var(--color-grey-light-1);
+    background-color: var(--color-grey-light-2);
     border-bottom: var(--line);
     font-size: 1.4rem;
 } 
