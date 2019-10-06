@@ -7,10 +7,11 @@
 /* SEARCH */
 .search {
     flex: 0 0 40%;
-
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    height: auto;
+    overflow: auto;
 }
 
 .search .search__input {
@@ -61,18 +62,21 @@
     fill: var(--color-grey-dark-3);
 }
 
+#searchbox {
+    position: relative;
+}
+
 .result {
     cursor: pointer;
 }
 
 .dropdown {
-    display: none;
-    position: absolute;
+    position: relative;
     display: inline-block;
-    width: 37%;
+    width: 85%;
     height: auto;
-    top: 50px;
-    left: 22%;
+    margin-right: 7.5%;
+    margin-top: 5%;
 }
 
 .dropdown-content {
@@ -520,4 +524,12 @@
 
 .btn:hover .btn__invisible {
     top: 0;
+}
+
+.searchcontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }

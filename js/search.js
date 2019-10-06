@@ -15,7 +15,7 @@ $(document).ready(function () {
         }
     }
 
-    $(".dropdown-content").hide();
+    $(".dropdown, .dropdown-content").hide();
 
     $("input").keydown(filterFunction);
 
@@ -25,8 +25,13 @@ $(document).ready(function () {
         $("#searchbox").attr("placeholder", "Search hotels");
     });
 
-    $("input").click(function () {
-        $(".dropdown, .dropdown-content, .search__button").show();
+    $('.search__input').on("focus", function () {
+        $(".dropdown, .dropdown-content").show();
+
+    });
+
+    $(".search__input").focusout(function () {
+        $(".dropdown, .dropdown-content").hide();
     });
 
 });
