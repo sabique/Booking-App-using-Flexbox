@@ -115,6 +115,38 @@
         flex: 0 0 100%;
         background-color: var(--color-grey-light-2);
     }
+
+}
+
+ @media only screen and (max-width: 450px) { 
+
+    .overview {
+        flex-direction: column;
+        background-color: #fff;
+        padding-bottom: 2rem;
+    }
+
+    .overview .overview__heading {
+        font-size: 2.5rem;
+        padding-top: 2rem;
+    }
+
+    .overview .overview__stars {
+        margin-right: 0 !important;
+        padding: 1rem 0;
+    }
+
+    .overview .overview__location {
+        font-size: 1.8rem;
+        padding: 2rem 0;
+    }
+
+    .overview .overview__rating {
+        font-size: 2.5rem;
+        padding: 1.25rem 0;
+        margin: 0 3rem;
+    }
+
 }
 
 @supports((-webkit-mask-image: url()) OR (mask-image: url())) {
