@@ -67,12 +67,12 @@
 
 .dropdown {
     display: none;
-    position: relative;
+    position: absolute;
     display: inline-block;
-    width: 90%;
+    width: 37%;
     height: auto;
-    top: -15px;
-    left: 5px;
+    top: 50px;
+    left: 22%;
 }
 
 .dropdown-content {
