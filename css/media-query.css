@@ -121,30 +121,44 @@
  @media only screen and (max-width: 450px) { 
 
     .overview {
-        flex-direction: column;
+        flex-wrap: wrap;
         background-color: #fff;
-        padding-bottom: 2rem;
+        padding-bottom: 1rem;
     }
 
     .overview .overview__heading {
-        font-size: 2.5rem;
-        padding-top: 2rem;
+        flex: 1 0 33%;
+        justify-content: center;
+        font-size: 1.8rem;
+        padding: 1.25rem 2rem;
     }
 
     .overview .overview__stars {
+        flex: 1 0 33%;
+        justify-content: center;
         margin-right: 0 !important;
-        padding: 1rem 0;
+        padding: 1.25rem 2rem;
     }
 
     .overview .overview__location {
-        font-size: 1.8rem;
-        padding: 2rem 0;
+        flex: 1 0 33%;
+        justify-content: center;
+        font-size: 1rem;
+        padding: 1.25rem 2rem;
     }
 
     .overview .overview__rating {
-        font-size: 2.5rem;
-        padding: 1.25rem 0;
-        margin: 0 3rem;
+        flex-basis: 100%; 
+        display: flex;
+        margin: 0 2rem;
+    }
+
+    .overview .overview__rating-average {
+        font-size: 1.5rem;
+    }
+
+    .overview .overview__rating-count {
+        font-size: .5rem;
     }
 
 }
