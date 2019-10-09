@@ -62,21 +62,41 @@
 }
 
 /* USER NAVIGATION */
-.user-nav {
-    display: flex;
-    align-items: center;
-    align-self: stretch;
+.user {
+    position: relative;
 }
 
-.user-nav > * {
-    padding: 0 2rem;
+.user:hover .user-nav {
+    display: flex;
+}
+
+.user__name {
+    padding-right: 2rem;
+}
+
+.user-nav {
+    z-index: 3;
+    display: none;
+    padding: 2rem 0;
+    position: absolute;
+    right: 0;
+}
+
+.user-nav__container {
+    display: flex;
+    background: white;
+}
+
+.user-nav__container > * {
+    padding: 1rem 2rem;
     cursor: pointer;
     height: 100%;
     display: flex;
     align-items: center;
 }
 
-.user-nav > *:hover {
+.username:hover,
+.user-nav__container > *:hover {
     background-color: var(--color-grey-light-2);
 }
 
