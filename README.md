@@ -21,7 +21,7 @@ The application is hosted on the Github pages: [https://sabique.github.io/Bookin
 * Hotel Amenities Section
 * Interactive Call-to-Action button
 
-## What I Used
+## What Is Used
 * HTML5
 * CSS3 Flexbox
 * CSS3 Media Queries
