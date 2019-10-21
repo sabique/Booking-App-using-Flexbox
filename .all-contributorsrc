@@ -13,6 +13,16 @@
       "contributions": [
         "design"
       ]
+    },
+    {
+      "login": "kronaemmanuel",
+      "name": "Krona Emmanuel",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/18748983?v=4",
+      "profile": "http://www.kronaemmanuel.com",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
