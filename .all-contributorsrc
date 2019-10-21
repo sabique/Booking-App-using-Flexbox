@@ -1,0 +1,23 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "thewhiteswan",
+      "name": "Josephine Hardy",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1618805?v=4",
+      "profile": "https://twitter.com/JosieMHardy",
+      "contributions": [
+        "design"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "Booking-App-using-Flexbox",
+  "projectOwner": "sabique",
+  "repoType": "github",
+  "repoHost": "https://github.com"
+}
