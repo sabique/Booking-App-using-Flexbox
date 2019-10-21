@@ -1,5 +1,6 @@
 # Booking App
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
+
 This is single page web interface for a booking application built using the CSS FlexBox. The app represents the interface concept to show details of hotel, flights, car rental and tour packages.
 <br><br>
 The application is mobile responsive and supports all modern browsers.
@@ -11,7 +12,7 @@ The application is hosted on the Github pages: [https://sabique.github.io/Bookin
 ### Mobile Interface
 ![Screenshot](https://i.imgur.com/VrTL2gd.png)
 
-# Design Elements
+## Design Elements
 * Search bar
 * Message and Notification indicators
 * Hotels Picture Gallery
@@ -20,16 +21,15 @@ The application is hosted on the Github pages: [https://sabique.github.io/Bookin
 * Hotel Amenities Section
 * Interactive Call-to-Action button
 
-# What I Used
+## What I Used
 * HTML5
 * CSS3 Flexbox
 * CSS3 Media Queries
 
 
-# How to contribute?
+## How to contribute?
 If you would like to contribute please raise a Pull Request. Also, you can check the [issues/enhancement list](https://github.com/sabique/Booking-App-using-Flexbox/issues).
 
-# Contributors
 ## Contributors ✨
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
