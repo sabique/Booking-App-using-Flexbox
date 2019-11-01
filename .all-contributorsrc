@@ -24,6 +24,15 @@
         "design",
         "code"
       ]
+    },
+    {
+      "login": "SpaceShipDev",
+      "name": "spaceshipdev",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/10591503?v=4",
+      "profile": "https://github.com/SpaceShipDev",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,

@@ -1,5 +1,5 @@
 # Booking App
-[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors)
+[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors)
 
 This is single page web interface for a booking application built using the CSS FlexBox. The app represents the interface concept to show details of hotel, flights, car rental and tour packages.
 <br><br>
@@ -38,8 +38,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- prettier-ignore -->
 <table>
   <tr>
-    <td align="center"><a href="https://twitter.com/JosieMHardy"><img src="https://avatars1.githubusercontent.com/u/1618805?v=4" width="100px;" alt="Josephine Hardy"/><br /><sub><b>Josephine Hardy</b></sub></a><br /><a href="#design-thewhiteswan" title="Design">🎨</a><a href="https://github.com/sabique/Booking-App-using-Flexbox/commits?author=kronaemmanuel" title="Code">💻</a></td>
+    <td align="center"><a href="https://twitter.com/JosieMHardy"><img src="https://avatars1.githubusercontent.com/u/1618805?v=4" width="100px;" alt="Josephine Hardy"/><br /><sub><b>Josephine Hardy</b></sub></a><br /><a href="#design-thewhiteswan" title="Design">🎨</a> <a href="https://github.com/sabique/Booking-App-using-Flexbox/commits?author=thewhiteswan" title="Code">💻</a></td>
     <td align="center"><a href="http://www.kronaemmanuel.com"><img src="https://avatars0.githubusercontent.com/u/18748983?v=4" width="100px;" alt="Krona Emmanuel"/><br /><sub><b>Krona Emmanuel</b></sub></a><br /><a href="#design-kronaemmanuel" title="Design">🎨</a> <a href="https://github.com/sabique/Booking-App-using-Flexbox/commits?author=kronaemmanuel" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/SpaceShipDev"><img src="https://avatars1.githubusercontent.com/u/10591503?v=4" width="100px;" alt="spaceshipdev"/><br /><sub><b>spaceshipdev</b></sub></a><br /><a href="https://github.com/sabique/Booking-App-using-Flexbox/commits?author=SpaceShipDev" title="Code">💻</a></td>
   </tr>
 </table>
 
