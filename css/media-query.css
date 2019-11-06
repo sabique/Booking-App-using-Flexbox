@@ -36,7 +36,7 @@
     .side-nav .side-nav__link:link,
     .side-nav .side-nav__link:visited {
         justify-content: center;
-        padding: 2rem; 
+        padding: 2rem;
     }
 
     .legal {
@@ -72,7 +72,7 @@
         margin-bottom: 2rem;
     }
 
-    .side-nav .side-nav__link:link, 
+    .side-nav .side-nav__link:link,
     .side-nav .side-nav__link:visited {
         flex-direction: column;
         padding: 1.5rem .5rem;
@@ -101,11 +101,19 @@
     .overview .overview__rating-count {
         font-size: .8rem;
     }
+
+    .search .search__icon {
+        margin-right: 2rem;
+    }
+
+    .searchcontainer {
+        width: 100%;
+    }
 }
 
-@media only screen and (max-width: 500px) { 
+@media only screen and (max-width: 500px) {
     .header {
-        height: 11rem; 
+        height: 11rem;
         flex-wrap: wrap;
         align-content: space-around;
     }
