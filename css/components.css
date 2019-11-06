@@ -72,11 +72,9 @@
 
 .dropdown {
     position: relative;
-    display: inline-block;
-    width: 85%;
+    display: flex;
+    width: 100%;
     height: auto;
-    margin-right: 7.5%;
-    margin-top: 5%;
 }
 
 .dropdown-content {
@@ -527,9 +525,5 @@
 }
 
 .searchcontainer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
+    width: 40%;
 }
