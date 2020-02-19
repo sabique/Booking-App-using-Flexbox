@@ -21,21 +21,18 @@
 
             <div class="searchcontainer">
                 <form action="#" class="search">
-                    <input id="searchbox" type="text" class="search__input" placeholder="Search hotels">
+                    <input id="searchbox" type="text" class="search__input" list="hotels" placeholder="Search hotels">
+                    <datalist id="hotels">
+                        <option value="HOTEL CATALUNYA"></option>
+                        <option value="HOTEL 2"></option>
+                        <option value="HOTEL 3"></option>
+                    </datalist>
                     <button class="search__button">
                         <svg class="search__icon">
                             <use xlink:href="img/sprite.svg#icon-magnifying-glass"></use>
                         </svg>
                     </button>
                 </form>
-
-                <div class="dropdown">
-                    <div id="myDropdown" class="dropdown-content">
-                        <p class="result">HOTEL CATALUNYA</p>
-                        <p class="result">HOTEL 2</p>
-                        <p class="result">HOTEL 3</p>
-                    </div>
-                </div>
             </div>
 
             <nav class="user-nav">
@@ -224,4 +221,6 @@
             </main>
         </div>
     </div>
-</body></html>
+</body>
+
+</html>
