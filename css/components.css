@@ -224,6 +224,24 @@
 
 .gallery .gallery__item {}
 
+.gallery__item figcaption span {
+    position: absolute;
+    font-size: 1.5em;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+}
+
+.gallery__item figcaption {
+    background: rgba(0,0,0,0.5);
+    opacity:0;
+    transition:opacity 0.5s ease;
+  }
+  
+.gallery__item figcaption:hover {
+    opacity:1;
+  }
+
 .gallery .gallery__photo {
     width: 100%;
     display: block;

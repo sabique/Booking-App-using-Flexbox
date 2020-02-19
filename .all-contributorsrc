@@ -1,0 +1,43 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "thewhiteswan",
+      "name": "Josephine Hardy",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1618805?v=4",
+      "profile": "https://twitter.com/JosieMHardy",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "kronaemmanuel",
+      "name": "Krona Emmanuel",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/18748983?v=4",
+      "profile": "http://www.kronaemmanuel.com",
+      "contributions": [
+        "design",
+        "code"
+      ]
+    },
+    {
+      "login": "SpaceShipDev",
+      "name": "spaceshipdev",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/10591503?v=4",
+      "profile": "https://github.com/SpaceShipDev",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "Booking-App-using-Flexbox",
+  "projectOwner": "sabique",
+  "repoType": "github",
+  "repoHost": "https://github.com"
+}
